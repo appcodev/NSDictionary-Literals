@@ -12,7 +12,7 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        
+        //data
         NSDictionary *aDic = @{@"key1": @"object1",@"key2":@"object2"};
         NSArray *aArray = @[@"object1",@"object2",@"object3"];
         NSString *aString = @"my string";

@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37062A2A17035DB70015FCD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37062A2917035DB70015FCD6 /* Foundation.framework */; };
+		37062A2D17035DB70015FCD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37062A2C17035DB70015FCD6 /* main.m */; };
+		37062A3117035DB70015FCD6 /* NSDictionary1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 37062A3017035DB70015FCD6 /* NSDictionary1.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37062A2417035DB70015FCD6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				37062A3117035DB70015FCD6 /* NSDictionary1.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		37062A2617035DB70015FCD6 /* NSDictionary1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSDictionary1; sourceTree = BUILT_PRODUCTS_DIR; };
+		37062A2917035DB70015FCD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37062A2C17035DB70015FCD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37062A2F17035DB70015FCD6 /* NSDictionary1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary1-Prefix.pch"; sourceTree = "<group>"; };
+		37062A3017035DB70015FCD6 /* NSDictionary1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NSDictionary1.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37062A2317035DB70015FCD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37062A2A17035DB70015FCD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37062A1D17035DB70015FCD6 = {
+			isa = PBXGroup;
+			children = (
+				37062A2B17035DB70015FCD6 /* NSDictionary1 */,
+				37062A2817035DB70015FCD6 /* Frameworks */,
+				37062A2717035DB70015FCD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37062A2717035DB70015FCD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37062A2617035DB70015FCD6 /* NSDictionary1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37062A2817035DB70015FCD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37062A2917035DB70015FCD6 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37062A2B17035DB70015FCD6 /* NSDictionary1 */ = {
+			isa = PBXGroup;
+			children = (
+				37062A2C17035DB70015FCD6 /* main.m */,
+				37062A3017035DB70015FCD6 /* NSDictionary1.1 */,
+				37062A2E17035DB70015FCD6 /* Supporting Files */,
+			);
+			path = NSDictionary1;
+			sourceTree = "<group>";
+		};
+		37062A2E17035DB70015FCD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37062A2F17035DB70015FCD6 /* NSDictionary1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37062A2517035DB70015FCD6 /* NSDictionary1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37062A3417035DB70015FCD6 /* Build configuration list for PBXNativeTarget "NSDictionary1" */;
+			buildPhases = (
+				37062A2217035DB70015FCD6 /* Sources */,
+				37062A2317035DB70015FCD6 /* Frameworks */,
+				37062A2417035DB70015FCD6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSDictionary1;
+			productName = NSDictionary1;
+			productReference = 37062A2617035DB70015FCD6 /* NSDictionary1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37062A1E17035DB70015FCD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Onzondev Innovation Co., Ltd.";
+			};
+			buildConfigurationList = 37062A2117035DB70015FCD6 /* Build configuration list for PBXProject "NSDictionary1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37062A1D17035DB70015FCD6;
+			productRefGroup = 37062A2717035DB70015FCD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37062A2517035DB70015FCD6 /* NSDictionary1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37062A2217035DB70015FCD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37062A2D17035DB70015FCD6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37062A3217035DB70015FCD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		37062A3317035DB70015FCD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		37062A3517035DB70015FCD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDictionary1/NSDictionary1-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37062A3617035DB70015FCD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDictionary1/NSDictionary1-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37062A2117035DB70015FCD6 /* Build configuration list for PBXProject "NSDictionary1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37062A3217035DB70015FCD6 /* Debug */,
+				37062A3317035DB70015FCD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37062A3417035DB70015FCD6 /* Build configuration list for PBXNativeTarget "NSDictionary1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37062A3517035DB70015FCD6 /* Debug */,
+				37062A3617035DB70015FCD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37062A1E17035DB70015FCD6 /* Project object */;
+}

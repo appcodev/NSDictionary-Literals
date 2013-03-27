@@ -28,7 +28,7 @@ int main(int argc, const char * argv[])
         NSDictionary *dicNKey2 = @{@"key1":@"object1",
                                    @"key2":@"object2",
                                    @"key3":@"object3"};
-        
+    
         
         NSLog(@"empty dictionary old : %@",empDic1);
         NSLog(@"empty dictionary new : %@",empDic2);
